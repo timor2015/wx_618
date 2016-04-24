@@ -1,0 +1,25 @@
+{
+  "name": "wx_look",
+  "version": "1.0.0",
+  "description": "618促销",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:timor2015/wx_618.git"
+  },
+  "author": "timor2015",
+  "license": "ISC",
+  "bugs": {
+    "url": "git@github.com:timor2015/wx_618/issues"
+  },
+  "homepage": "git@github.com:timor2015/wx_618#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-ruby-sass": "^2.0.6"
+  }
+}
