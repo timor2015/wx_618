@@ -1,13 +1,15 @@
 // 引入插件
 
 var gulp = require('gulp');
+var imagemin = require('gulp-imagemin');
 var sass = require('gulp-ruby-sass');
 var browserSync = require('browser-sync');
 var autoprefixer = require('gulp-autoprefixer');
 
 // gulp 默认任务
-gulp.task('default', ['browserSync'], function(){
+gulp.task('default', ['browserSync', 'imagemin'], function(){
 	gulp.watch('./src/scss/**/*.scss', ['sass']);
+	gulp.watch('./dev_source/images/*', ['imagemin']);
 	gulp.watch('./src/js/**/*.js').on('change', browserSync.reload);
 });
 
@@ -44,4 +46,18 @@ gulp.task('browserSync', function(){
 			'./index.html'
 		],
 	});
+});
+
+
+// 图片压缩任务
+gulp.task('imagemin', function(){
+	return gulp.src('./dev_source/images/**/*.*')
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [
+                {removeViewBox: false},
+                {cleanupIDs: false}
+            ],
+        }))
+        .pipe(gulp.dest('./source/images'));
 });

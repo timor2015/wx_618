@@ -1,25 +1,33 @@
 {
-  "name": "wx_look",
+  "name": "wx_618",
   "version": "1.0.0",
-  "description": "618促销",
-  "main": "index.js",
+  "description": "618大促销-微信场景",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-imagemin": "^2.4.0",
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-autoprefixer": "^3.1.0",
+    "browser-sync": "^2.11.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-ruby-sass": "^2.0.6"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:timor2015/wx_618.git"
+    "url": "git+https://github.com/timor2015/wx_618.git"
   },
   "author": "timor2015",
   "license": "ISC",
   "bugs": {
-    "url": "git@github.com:timor2015/wx_618/issues"
+    "url": "https://github.com/timor2015/wx_618/issues"
   },
-  "homepage": "git@github.com:timor2015/wx_618#readme",
-  "devDependencies": {
-    "browser-sync": "^2.11.2",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-ruby-sass": "^2.0.6"
-  }
+  "homepage": "https://github.com/timor2015/wx_618#readme"
 }
