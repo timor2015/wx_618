@@ -5,9 +5,6 @@ var mySwiper = new Swiper ('#look', {
     direction: 'vertical',
     loop: false,
     
-    // 如果需要分页器
-    pagination: '.swiper-pagination',
-    
 
     watchSlidesProgress: true,
 
