@@ -301,6 +301,59 @@ html, body, .container, #look {
     -webkit-background-size: cover;
             background-size: cover;
     background-position: 50% 50%; }
+    #look .swiper-slide .page5 .page5_title {
+      position: absolute;
+      left: 2rem;
+      top: 10%;
+      font-size: 0.5rem;
+      color: #000; }
+      #look .swiper-slide .page5 .page5_title span {
+        font-size: 0.6rem; }
+    #look .swiper-slide .page5 .page5_cell {
+      position: absolute;
+      left: 0.45rem;
+      width: 2rem;
+      height: 2rem; }
+      #look .swiper-slide .page5 .page5_cell img {
+        width: inherit;
+        height: inherit; }
+    #look .swiper-slide .page5 .cell1 {
+      top: 20%; }
+    #look .swiper-slide .page5 .cell2 {
+      top: 45%; }
+    #look .swiper-slide .page5 .cell3 {
+      top: 70%; }
+    #look .swiper-slide .page5 .page5_kong {
+      width: 3.5rem;
+      height: 2rem;
+      background: #fff;
+      position: absolute;
+      right: 0.4rem; }
+    #look .swiper-slide .page5 .kong1 {
+      top: 20%; }
+    #look .swiper-slide .page5 .kong2 {
+      top: 45%; }
+    #look .swiper-slide .page5 .kong3 {
+      top: 70%; }
+    #look .swiper-slide .page5 .page5_desc {
+      width: 3rem;
+      height: 1rem;
+      color: #666;
+      font-size: 0.28rem;
+      line-height: 0.5rem;
+      position: absolute;
+      right: 0rem;
+      padding: 0.5rem 0.5rem; }
+      #look .swiper-slide .page5 .page5_desc span {
+        font-size: 0.3rem;
+        font-weight: 900;
+        color: #333; }
+    #look .swiper-slide .page5 .desc1 {
+      top: 18%; }
+    #look .swiper-slide .page5 .desc2 {
+      top: 43%; }
+    #look .swiper-slide .page5 .desc3 {
+      top: 68%; }
   #look .swiper-slide .page6 {
     background: url("../../source/images/page6/0.jpg") no-repeat;
     -webkit-background-size: cover;
